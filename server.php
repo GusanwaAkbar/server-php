@@ -1,6 +1,7 @@
 <?php
 error_reporting(1); // error ditampilkan
 header('Content-Type: text/xml; charset=UTF-8');
+return Json('OK');
 include "Database.php";
 // buat objek baru dari class Database $abc = new Database();
 // function untuk menghapus selain huruf dan angka 
